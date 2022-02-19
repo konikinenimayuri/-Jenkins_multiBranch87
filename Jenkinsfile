@@ -1,4 +1,4 @@
-node('master') 
+node('Build-In') 
 {
     stage('Continuous Download_loans') 
 	{
@@ -8,6 +8,6 @@ node('master')
 	{
     sh label: '', script: 'mvn package'
 	}
-    stage('Continuous Deployment') 
-	{
+     
 }
+
